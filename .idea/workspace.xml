@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ccd2201f-4bca-41e9-af20-01cfc40f7c59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/FlyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyNoWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/FlyNoWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyRocketPowered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/FlyRocketPowered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyWithWings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/FlyWithWings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/MiniDuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ModelDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/ModelDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MuteQuack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/MuteQuack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/Quack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuackBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/QuackBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Squeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategyPattern/Squeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/策略模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desing-mode.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,67 +27,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MiniDuckSimulator.java">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/MiniDuckSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="62">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FlyRocketPowered.java">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyRocketPowered.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FlyBehavior.java">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/ModelDuck.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/QuackBehavior.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/Squeak.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyWithWings.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyNoWay.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/MallardDuck.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyBehavior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="62">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MallardDuck.java">
+        <entry file="file://$PROJECT_DIR$/src/strategyPattern/Duck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuackBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="19" />
-              <folding>
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="310">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -111,6 +124,10 @@
         <option value="$PROJECT_DIR$/src/QuackBehavior.java" />
         <option value="$PROJECT_DIR$/src/MallardDuck.java" />
         <option value="$PROJECT_DIR$/src/MiniDuckSimulator.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/Duck.java" />
+        <option value="$PROJECT_DIR$/src/strategy-pattern/FlyBehavior.java" />
+        <option value="$PROJECT_DIR$/src/strategy-pattern/FlyNoWay.java" />
+        <option value="$PROJECT_DIR$/src/strategyPattern/FlyBehavior.java" />
       </list>
     </option>
   </component>
@@ -132,8 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +163,12 @@
               <item name="策略模式" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="策略模式" type="b2602c69:ProjectViewProjectNode" />
+              <item name="策略模式" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strategyPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585243432090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585243984465" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -165,6 +188,13 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\设计模式\策略模式\src\strategyPattern" />
+      <recent name="D:\设计模式\策略模式\src\strategy-pattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="策略模式" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sonDuck.father" />
     </key>
@@ -181,16 +211,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MiniDuckSimulator (1)">
+    <configuration name="MiniDuckSimulator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strategyPattern.MiniDuckSimulator" />
+      <module name="desing-mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiniDuckSimulator" />
-      <module name="策略模式" />
+      <module name="desing-mode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiniDuckSimulator (1)" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
@@ -207,7 +251,8 @@
       <updated>1585205169408</updated>
       <workItem from="1585205173246" duration="12324000" />
       <workItem from="1585227209486" duration="11028000" />
-      <workItem from="1585242196215" duration="1128000" />
+      <workItem from="1585242196215" duration="1384000" />
+      <workItem from="1585243608870" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="策略模式例子">
       <created>1585239385528</created>
@@ -251,11 +296,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585243202855</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="策略模式例子1">
+      <created>1585243439305</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585243439305</updated>
+    </task>
+    <task id="LOCAL-00008" summary="策略模式例子1">
+      <created>1585243446342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585243446342</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24480000" />
+    <option name="totallyTimeSpent" value="25046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,8 +327,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -277,13 +337,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5986985" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.40563992" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.40563992" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.40563992" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
@@ -311,7 +371,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="策略模式例子1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/策略模式.iml">
+    <entry file="file://$PROJECT_DIR$/desing-mode.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
@@ -420,16 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlyWithWings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Quack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -437,13 +487,6 @@
           <folding>
             <element signature="e#83#84#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiniDuckSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -491,6 +534,117 @@
             <element signature="e#602#603#0" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiniDuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/MuteQuack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/MiniDuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/FlyRocketPowered.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/ModelDuck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/Squeak.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/FlyWithWings.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy-pattern/FlyNoWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlyWithWings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/MuteQuack.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/ModelDuck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/QuackBehavior.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/Squeak.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyWithWings.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyNoWay.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/FlyRocketPowered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategyPattern/MiniDuckSimulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

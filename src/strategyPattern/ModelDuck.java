@@ -1,3 +1,5 @@
+package strategyPattern;
+
 /**
  * 模型鸭
  */

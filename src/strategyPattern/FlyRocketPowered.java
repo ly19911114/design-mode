@@ -1,3 +1,5 @@
+package strategyPattern;
+
 public class FlyRocketPowered implements FlyBehavior {
     @Override
     public void fly() {

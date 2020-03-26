@@ -1,7 +1,9 @@
+package strategyPattern;
+
 /**
  * 野鸭子
  */
-public class MallardDuck extends Duck{
+public class MallardDuck extends Duck {
 
     public MallardDuck(){
         //使用Quack类来处理呱呱叫，所以当Duck超类中的performQuack()被调用时，叫的职责委托给了Quack对象，而我们得到了真正的呱呱叫
