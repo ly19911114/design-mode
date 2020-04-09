@@ -1,9 +1,12 @@
-package observer.WeatherStation;
+package observer.WeatherStationObservable;
 
 /**
  * @author LiuYang
  * @date 2020/4/9
  */
+
+
+import observer.WeatherStationObservable.CurrentConditionsDisplay;
 
 /**
  * 自定义观察者模式
@@ -14,10 +17,10 @@ public class WeatherStation {
         WeatherData weatherData=new WeatherData();
 
         //CcurrentConditionsDisplay通过对象初始化注册成为观察者
-        CcurrentConditionsDisplay ccurrentConditionsDisplay=new CcurrentConditionsDisplay(weatherData);
+        CurrentConditionsDisplay ccurrentConditionsDisplay=new CurrentConditionsDisplay(weatherData);
 
-        StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
-        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+//        StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+//        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
         //值改变了
         weatherData.setMeasurements(80,60,55);
 
