@@ -32,6 +32,7 @@ public class WeatherData implements Subject {
 
     //构造函数
     public WeatherData() {
+        //主题对象初始化，创建实现Observer接口的对象列表
         observers = new ArrayList();
     }
 

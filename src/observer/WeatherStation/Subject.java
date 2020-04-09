@@ -13,7 +13,7 @@ public interface Subject {
      * 这两个方法都需要一个观察者作为变量，该观察者是用来注册或是被删除的
      * @param observer 观察者变量
      */
-    //注册观察者
+    //注册观察者，只要实现了Observer接口即可，主题不在乎具体的类，这就是松耦合的好处
     void registerObserver(Observer observer);
     //删除观察者
     void removeObserver(Observer observer);

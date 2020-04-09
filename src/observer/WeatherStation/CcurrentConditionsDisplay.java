@@ -20,10 +20,13 @@ public class CcurrentConditionsDisplay implements Observer, DispalyElement {
     /**
      * 构造器需要weatherData对象(也就是主题)作注册之用
      *
-     * @param weatherData
+     * @param weatherData 传入Subject的变量，其实传入的是主题对象，这么做的目的是为了松耦合
      */
     public CcurrentConditionsDisplay(Subject weatherData) {
         this.weatherData = weatherData;
+        //任何时候我们都可以增加新的观察者，因为主题唯一依赖的东西是一个实现Observer接口的对象列表，
+        //主题不需要知道观察者的具体类是谁、做了些什么或者其他任何细节
+        //松耦合
         weatherData.registerObserver(this);
     }
 
