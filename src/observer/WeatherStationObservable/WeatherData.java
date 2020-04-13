@@ -9,6 +9,7 @@ import java.util.Observable;
 
 /**
  * 与自定义的观察者模式相比，我们不再需要追踪观察者了，也不需要管理注册和删除，让超类Observable代劳即可
+ * 用JDK自带的观察者模式创建
  */
 public class WeatherData extends Observable {
     private float temperature;
