@@ -1,4 +1,4 @@
-package decorator;
+package decorator.starbuzz;
 
 /**
  * @author LiuYang
@@ -6,26 +6,23 @@ package decorator;
  */
 
 /**
- * 奶泡调料
+ * 豆浆调料
  */
-public class Soy extends CodimentDecorator {
+public class Whip extends CodimentDecorator {
 
     Beverage beverage;
 
-    public Soy(Beverage beverage){
+    public Whip(Beverage beverage){
         this.beverage=beverage;
     }
 
-
-
     @Override
-
     public String getDescription() {
-        return beverage.getDescription()+" ,Soy";
+        return beverage.getDescription()+" ,Whip";
     }
 
     @Override
     public double cost() {
-        return .15+beverage.cost();
+        return .10+beverage.cost();
     }
 }
