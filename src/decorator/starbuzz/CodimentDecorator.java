@@ -11,7 +11,7 @@ package decorator.starbuzz;
  */
 public abstract class CodimentDecorator extends Beverage{
     /**
-     *所有的调料装饰者都必须重新实现getDescription()方法
+     *所有的调料装饰者都必须重新实现getDescription() 方法
      * @return
      */
     public abstract String getDescription();
